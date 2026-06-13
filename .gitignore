@@ -1,0 +1,51 @@
+# Composer
+/vendor/
+composer.lock
+
+# Environment configuration
+.env
+.env.local
+.env.*.local
+config/alipay.php
+config/codepay.json
+
+# Logs
+/logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+/cache/
+/tmp/
+/data/
+/qrcodes/
+*.db
+*.lock
+container_monitor.php
+
+# Payment QR codes are runtime secrets/assets
+qrcode/business_qr.png
+
+# Test coverage
+/coverage/
+
+# Node modules (if adding frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+/build/
+/dist/ 
+
+alipayPublicKey_RSA2.txt
